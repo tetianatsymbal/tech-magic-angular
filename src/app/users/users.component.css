@@ -1,0 +1,48 @@
+.toolbar{
+ padding: 45px;
+}
+.spacer{
+ flex: 1 1 auto;
+}
+.toolbar-form-field{
+ margin-top: 19px;
+ line-height: 24px;
+}
+.btn-search{
+ background-color: blueviolet;
+ margin-left: 20px;
+ height: 50px;
+}
+.users{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ margin: 30px 20px;
+}
+
+.user-card{
+  margin: 15px 5px;
+  width: 280px;
+  position: relative;
+  border-radius: 8px;
+  border: 2px solid rgb(155, 150, 255);
+}
+
+.user-description{
+ display: flex;
+ padding: 15px;
+ flex-direction: column;
+ align-items: center;
+ margin: 15px;
+ gap: 10px;
+}
+
+.user-checkbox{
+ position: absolute;
+ right: 0;
+}
+
+.user-name{
+ display: flex;
+ gap: 10px;
+}
